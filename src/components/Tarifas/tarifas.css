@@ -1,0 +1,100 @@
+.tarifas-body {
+  background-color: var(--grisClaro);
+}
+.tarifas {
+  text-align: center;
+  margin-top: 5rem;
+}
+.tarifas h1 {
+  text-transform: uppercase;
+  color: var(--gris);
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+@media (min-width: 678px) {
+  .tarifas h1 {
+    font-size: 4rem;
+  }
+}
+
+.tarifas h3 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 678px) {
+  .tarifas h3 {
+    font-size: 3rem;
+  }
+}
+.tarifas p {
+  font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+  .tarifas p {
+    font-size: 2.5rem;
+  }
+}
+.tarifas__fecha {
+  color: var(--grisOscuro);
+}
+.table {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.table th {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.table td {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.aviso {
+  text-transform: uppercase;
+  color: var(--grisOscuro);
+}
+.condiciones {
+  margin-bottom: 10rem;
+  margin-top: 8rem;
+}
+.condiciones h2 {
+  color: var(--gris);
+  font-weight: 400;
+  text-align: center;
+}
+.condiciones p span {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--lightBlue);
+}
+.condiciones p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.condiciones .destacado {
+  font-weight: 700;
+}
+.importante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.importante h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.importante p {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 5px solid var(--lightBlue);
+}
+@media (min-width: 768px) {
+  .importante p {
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+}

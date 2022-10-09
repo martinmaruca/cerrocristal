@@ -1,0 +1,34 @@
+.up {
+  font-size: 4rem;
+  position: fixed;
+  left: 85%;
+  top: 80%;
+  z-index: 100;
+  color: var(--gris);
+}
+.up:hover {
+  color: var(--lightBlue);
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .up {
+    left: 95%;
+  }
+}
+.whatsapp {
+  font-size: 4rem;
+  position: fixed;
+  left: 85%;
+  top: 90%;
+  z-index: 1000;
+  color: #62cc5c;
+}
+.whatsapp:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .whatsapp {
+    left: 95%;
+  }
+}

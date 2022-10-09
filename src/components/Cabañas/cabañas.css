@@ -1,0 +1,74 @@
+.informacion {
+  width: 80vw;
+}
+@media (min-width: 678px) {
+  .informacion {
+    width: 100%;
+  }
+}
+.cabañas-body {
+  background-color: var(--grisClaro);
+}
+.title h2 {
+  text-align: center;
+  color: var(--gris);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.card_cabaña {
+  overflow: hidden;
+  position: relative;
+}
+.card_cabaña img {
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 1s ease;
+}
+
+.card_cabaña img:hover {
+  transform: scale(105%);
+  transition: all 0.8ms ease;
+  cursor: pointer;
+}
+.card_footer {
+  height: 18rem;
+  background-color: var(--blanco);
+  padding: 3rem;
+  text-align: center;
+}
+.card_footer h3 {
+  color: var(--grisOscuro);
+  text-transform: uppercase;
+}
+.card_footer strong {
+  color: var(--gris);
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+.cab__titulo {
+  display: block;
+  color: var(--gris);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .cab__titulo {
+    font-size: 3rem;
+  }
+}
+.entrada {
+  display: flex;
+  gap: 1rem;
+}

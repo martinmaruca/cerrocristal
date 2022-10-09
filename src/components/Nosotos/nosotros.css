@@ -1,0 +1,31 @@
+iframe {
+  width: 90vw;
+  height: 315px;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  iframe {
+    width: 560px;
+    height: 315px;
+    margin-bottom: 4rem;
+  }
+}
+
+.nosotros__titulo {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .nosotros__titulo {
+    font-size: 3.6rem;
+    margin-bottom: 8rem;
+  }
+}
+
+.wave-nosotros {
+  background-color: var(--grisClaro);
+}

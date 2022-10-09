@@ -1,0 +1,62 @@
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--grisClaro);
+}
+.contacto h3 {
+  color: var(--grisOscuro);
+}
+.circulo {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  border: 4px solid var(--lightBlue);
+  color: var(--lightBlue);
+  border-radius: 80%;
+  padding: 2rem;
+  width: 10rem;
+  height: 10rem;
+}
+.consultas {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.redes {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.redes p {
+  font-size: 2rem;
+}
+.redes_iconos {
+  margin-bottom: 5rem;
+}
+.redes_iconos a {
+  color: var(--gris);
+  font-size: 3rem;
+}
+.redes_iconos a:hover {
+  color: var(--lightBlue);
+}
+.redes_iconos span {
+  margin-right: 10px;
+}
+.derechos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grisOscuro);
+  color: var(--blanco);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin: 0;
+  height: 6rem;
+}
+@media (min-width: 678px) {
+  .derechos {
+    font-size: 2rem;
+  }
+}

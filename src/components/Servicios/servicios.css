@@ -1,0 +1,24 @@
+.servicios {
+  background-color: var(--grisClaro);
+  padding-top: 5rem;
+}
+.servicios_titulo {
+  text-align: center;
+  color: var(--gris);
+  margin-bottom: 2rem;
+}
+
+.servicios_titulo h2 {
+  font-weight: 500;
+}
+
+.servicios_titulo p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.servicios_lista li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--grisOscuro);
+}
