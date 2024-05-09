@@ -21,48 +21,50 @@ const Tarifas = () => {
       <div className="tarifas-body" id="tarifas">
         <div className="container">
           <div className="tarifas">
-            <h1>Tarifas Enero y Febrero 2022/23</h1>
-            <h3 className="tarifas__fecha">26 de Dciembre al 5 de Marzo</h3>
-            <p>Paquete minimo 4 noches con servicio de mucama y desayuno.</p>
+            <h1>Tarifas Mayo y Junio 2024</h1>
+            <h3 className="tarifas__fecha">Reservando 3 días o más pagando en efectivo 10% de descuento</h3>
+            <p>Con servicio de mucama.</p>
             <table className="table table-striped">
               <thead>
                 <tr>
                   <th className="columna" scope="col">
                     Cabaña
                   </th>
+                  /*
                   <th className="columna" scope="col">
                     Precio x Noche
                   </th>
+                  */
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">2 pax monoambiente estandar</th>
-                  <td>$ 17800</td>
+                 /* <td>$ 17800</td>*/
                 </tr>
                 <tr>
                   <th scope="row">2 pax 2 ambientes</th>
-                  <td>$ 19800</td>
+                  /* <td>$ 19800</td> */
                 </tr>
                 <tr>
                   <th scope="row">2 pax monoambiente c/ jacuzzi doble</th>
-                  <td>$ 21800</td>
+                  /* <td>$ 21800</td> */
                 </tr>
                 <tr>
                   <th scope="row">Cabaña 4 pax chica estandar</th>
-                  <td>$ 26900</td>
+                  /* <td>$ 26900</td> */
                 </tr>
                 <tr>
                   <th scope="row">Cabaña 4 pax grande estandar</th>
-                  <td>$ 33500</td>
+                  /* <td>$ 33500</td> */
                 </tr>
                 <tr>
                   <th scope="row">Cabaña 4 pax con jacuzzi</th>
-                  <td>$ 35800</td>
+                  /* <td>$ 35800</td> */
                 </tr>
                 <tr>
                   <th scope="row">Cabaña 5/6 pax estandar</th>
-                  <td>$ 39500</td>
+                  /* <td>$ 39500</td> */
                 </tr>
               </tbody>
             </table>
@@ -74,6 +76,7 @@ const Tarifas = () => {
             </div>
           </div>
 
+          /*
           <div className="tarifas">
             <h1>Tarifas Marzo y Abril 2023</h1>
             <h3 className="tarifas__fecha">6 de Marzo al 6 de Abril</h3>
@@ -127,6 +130,7 @@ const Tarifas = () => {
               </p>
             </div>
           </div>
+          */
           <div className="condiciones">
             <h2>Condiciones de contratación:</h2>
             <p>
